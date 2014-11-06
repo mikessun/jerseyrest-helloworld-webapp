@@ -54,5 +54,13 @@ public class HelloWorldResource {
     public String getHello() {
         return "<h1>Hello World was changed....!</h1>";
     }
+	
+	@GET
+    @Produces("text/html")
+@Path("welcome")
+	
+    public String getHello() {
+        return "<h1>welcome....!</h1>";
+    }
 
 }

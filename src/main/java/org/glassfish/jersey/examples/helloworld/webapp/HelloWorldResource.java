@@ -59,7 +59,7 @@ public class HelloWorldResource {
     @Produces("text/html")
 @Path("welcome")
 	
-    public String getHello() {
+    public String getWelcome() {
         return "<h1>welcome....!</h1>";
     }
 
